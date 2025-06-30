@@ -1,4 +1,5 @@
 import { logo } from "@/assets";
+import Tasks from "@/components/Tasks";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,6 +11,8 @@ export default function Home() {
         </header>
 
         <p>Tasks to keep organised</p>
+
+        <Tasks/>
     </div>
   );
 }
